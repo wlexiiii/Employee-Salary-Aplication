@@ -20,7 +20,7 @@ public class EmployeeSalary {
         JFrame frame = new JFrame("EmployeeSalary");
         frame.setContentPane(new EmployeeSalary().Main);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.getContentPane().setBackground(Color.WHITE);
+        frame.getContentPane().setBackground(Color.BLACK);
         frame.pack();
         frame.setVisible(true);
 
