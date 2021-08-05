@@ -1,4 +1,4 @@
-# Employee-Salary-Application
+# Employee-Salary-Calculator-Application
 This Employee Salary Application is a simple Java Application that be developed to calculate the net salary of employees working in Malaysia. This application is useful to the payroll department when they need to calculate the net salary of the employees. This application is completed developed using Java Language. 
 
 # OBJECTIVE OF THE PROJECT
