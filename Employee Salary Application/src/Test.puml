@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+actor Payroll
+actor Employee
+
+participant GrossSalary
+participant EPFcontribution
+participant SOSCOcontribution
+participant EIScontribution
+participant NetSalary
+
+Payroll -> GrossSalary : Key-in the GrossSalary
+Payroll -> EPFcontribution : Choose for the EPF contribution
+
+EPFcontribution -> NetSalary : Shows the net salary after deduct all contribution.
+
+NetSalary --> Employee : Payroll pay the net salary to employee
+
+actor Employee
+
+@enduml

@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.color.*;
+
 
 
 public class EmployeeSalary {
@@ -17,7 +17,7 @@ public class EmployeeSalary {
     private JButton a9Button;
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("EmployeeSalary");
+        JFrame frame = new JFrame("Employee Salary Calculator");
         frame.setContentPane(new EmployeeSalary().Main);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setBackground(Color.BLACK);
